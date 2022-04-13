@@ -1,0 +1,41 @@
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1170px;
+  height: 650px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/image/pexels-alexandr-podvalny-1227513.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  color: #ffffff;
+}
+.container {
+  max-width: 380px;
+  margin: 0 auto;
+}
+.container button {
+  color: rgba(0, 0, 0, 0.87);
+}
+@media screen and (max-width: 1170px) {
+  .bg {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bg {
+    max-width: 768px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .bg {
+    max-width: 360px;
+
+  }
+  .container {
+    padding: 0 16px;
+  }
+}

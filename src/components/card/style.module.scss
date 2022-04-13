@@ -1,0 +1,22 @@
+.card {
+	background: #ffffff;
+	border-radius: 10px;
+	word-wrap: break-word;
+	overflow-x:hidden
+}
+.avatar {
+	padding: 20px;
+    margin: 0 auto;
+	height: 70px;
+	width: 70px;
+	background: url(../../assets/svg/photo-cover.svg) no-repeat center;
+	>img {
+		border-radius: 50%;
+	}
+}
+
+.infoUser {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}

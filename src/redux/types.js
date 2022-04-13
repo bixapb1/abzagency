@@ -1,0 +1,13 @@
+export const TOKEN = "TOKEN";
+export const USERS = "USERS";
+export const POSITIONS = "POSITIONS";
+export const NAME = "NAME";
+export const EMAIL = "EMAIL";
+export const PHONE = "PHONE";
+export const ID_POSITION = "ID_POSITION";
+export const PHOTO = "PHOTO";
+export const VALIDATION = "VALIDATION";
+export const SUCCESS = "SUCCESS";
+export const PAGE = "PAGE";
+export const BTN_SHOW_MORE = "BTN_SHOW_MORE";
+export const LOADING = "LOADING";

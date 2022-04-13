@@ -1,0 +1,21 @@
+.header {
+  height: 60px;
+  background: #ffffff;
+}
+.header {
+	>div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
+.btnGroup {
+  display: flex;
+  gap: 10px;
+}
+@media screen and (max-width: 420px) {
+  .header > div {
+    justify-content: space-around;
+  }
+}
