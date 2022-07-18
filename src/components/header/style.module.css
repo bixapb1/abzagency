@@ -2,13 +2,12 @@
   height: 60px;
   background: #ffffff;
 }
-.header {
-	>div {
+.header>div {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
-}
+
 
 .btnGroup {
   display: flex;

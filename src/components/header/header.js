@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./style.module.scss";
+import s from "./style.module.css";
 import { ReactComponent as Logo } from "../../assets/svg/Logo.svg";
 import Button from "../button/button";
 
@@ -9,7 +9,9 @@ export default function Header() {
       <div className="container">
         <Logo />
         <div className={s.btnGroup}>
-          <Button text="Users"></Button>
+          <a href="#users">
+            <Button text="Users"></Button>
+          </a>
           <a href="#SignUp">
             <Button text="Sign up" />
           </a>

@@ -1,0 +1,23 @@
+:root {
+	--primary: #F4E041;
+  }
+
+
+.btn {
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+	background: var(--primary);
+	border-radius: 80px;
+	padding: 4px 20px;
+
+}
+.btn:hover {
+	background: var(--primary);
+}
+.btn:disabled {
+	background: #b4b4b4;
+color: rgba(255, 255, 255, 0.87);
+}

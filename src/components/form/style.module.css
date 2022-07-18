@@ -1,0 +1,42 @@
+.form {
+  max-width: 380px;
+  margin: 0 auto;
+}
+.form p {
+  text-align: left;
+}
+.field {
+  color: #7e7e7e;
+  width: 100%; 
+  margin: 50px 0 0 0!important
+}
+
+.uploadGroup {
+  display: flex;
+  margin-top: 50px;
+
+
+}
+.uploadBtn {
+  display: inline-block;
+  border: 1px solid #000000de;
+  border-radius: 4px 0px 0px 4px;
+  padding: 14px 15px;
+  width: 30%;
+  cursor: pointer;
+}
+.fileChosen {
+  display: inline-block;
+  cursor: pointer;
+  color: #7e7e7e;
+  border: 1px solid #d0cfcf;
+  border-radius: 0px 4px 4px 0px;
+  padding: 14px 15px;
+  width: 70%;
+}
+@media screen and (max-width: 420px) {
+  .form {
+    max-width: 328px;
+    margin: 0 16px;
+  }
+}

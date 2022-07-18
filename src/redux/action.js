@@ -71,18 +71,16 @@ export function getUsers() {
     const url = `https://frontend-test-assignment-api.abz.agency/api/v1/users?page=${page}&count=6`;
     const response = await fetch(url);
     const json = await response.json();
-    setTimeout(() => {
-      if (page > 1) {
-        dispatch(setUsers(users.concat(json.users)));
-        dispatch(setLoading(false));
-        if (json.total_pages === page) {
-          dispatch(btnShowMore(false));
-        }
-      } else {
-        dispatch(setLoading(false));
-        dispatch(setUsers(json.users));
+    if (page > 1) {
+      dispatch(setUsers(users.concat(json.users)));
+      dispatch(setLoading(false));
+      if (json.total_pages === page) {
+        dispatch(btnShowMore(false));
       }
-    }, 1000);
+    } else {
+      dispatch(setLoading(false));
+      dispatch(setUsers(json.users));
+    }
   };
 }
 export function getPositions() {

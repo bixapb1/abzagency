@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/app.scss";
+import "./style/app.css";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setPage, getPositions, getUsers, getToken } from "./redux/action";
@@ -33,7 +33,9 @@ function App() {
       <Header />
       <Banner />
       <div className="container">
-        <h1 className="title">Working with GET request</h1>
+        <h1 id="users" className="title">
+          Working with GET request
+        </h1>
         <div className="grid">
           {users.map((user) => (
             <Card key={user.id} user={user} />

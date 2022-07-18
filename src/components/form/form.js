@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./style.module.scss";
+import s from "./style.module.css";
 import Button from "../button/button";
 import { useDispatch, useSelector } from "react-redux";
 import { styled } from "@mui/material/styles";

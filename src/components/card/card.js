@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./style.module.scss";
+import s from "./style.module.css";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import { styled } from "@mui/material/styles";
 const BlackToolTip = styled(({ className, ...props }) => (

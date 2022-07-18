@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import "./style/normalize.scss";
+import "./style/normalize.css";
 import App from "./App";
 import { Provider } from "react-redux";
 import { createStore, compose, applyMiddleware } from "redux";
