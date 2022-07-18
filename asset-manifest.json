@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/abzagency/static/css/main.5f99e16b.css",
-    "main.js": "/abzagency/static/js/main.5f4bcdbc.js",
-    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/abzagency/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
+    "main.css": "/abzagency/static/css/main.a6bbf6e3.css",
+    "main.js": "/abzagency/static/js/main.e370f607.js",
     "static/media/success-image.svg": "/abzagency/static/media/success-image.0d3202ba11b04fa7364b0f83ce42aea5.svg",
     "static/media/Logo.svg": "/abzagency/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
     "static/media/photo-cover.svg": "/abzagency/static/media/photo-cover.fb98cf13a87225efe558.svg",
     "index.html": "/abzagency/index.html",
-    "main.5f99e16b.css.map": "/abzagency/static/css/main.5f99e16b.css.map",
-    "main.5f4bcdbc.js.map": "/abzagency/static/js/main.5f4bcdbc.js.map"
+    "main.a6bbf6e3.css.map": "/abzagency/static/css/main.a6bbf6e3.css.map",
+    "main.e370f607.js.map": "/abzagency/static/js/main.e370f607.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f99e16b.css",
-    "static/js/main.5f4bcdbc.js"
+    "static/css/main.a6bbf6e3.css",
+    "static/js/main.e370f607.js"
   ]
 }
